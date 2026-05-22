@@ -1,0 +1,100 @@
+$date
+	Fri May 22 20:26:09 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module calculator_top_tb $end
+$var wire 16 ! result [15:0] $end
+$var wire 1 " negative_flag $end
+$var wire 1 # carry_out $end
+$var reg 8 $ A [7:0] $end
+$var reg 8 % B [7:0] $end
+$var reg 2 & opcode [1:0] $end
+$scope module uut $end
+$var wire 8 ' A [7:0] $end
+$var wire 8 ( B [7:0] $end
+$var wire 2 ) opcode [1:0] $end
+$var wire 16 * result [15:0] $end
+$var wire 1 " negative_flag $end
+$var wire 1 # carry_out $end
+$scope module AU $end
+$var wire 8 + A [7:0] $end
+$var wire 8 , B [7:0] $end
+$var wire 2 - opcode [1:0] $end
+$var reg 1 # carry_out $end
+$var reg 1 " negative_flag $end
+$var reg 16 . result [15:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1111 .
+b0 -
+b101 ,
+b1010 +
+b1111 *
+b0 )
+b101 (
+b1010 '
+b0 &
+b101 %
+b1010 $
+0#
+0"
+b1111 !
+$end
+#10000
+b100000000 !
+b100000000 *
+b100000000 .
+b1 %
+b1 (
+b1 ,
+b11111111 $
+b11111111 '
+b11111111 +
+#20000
+b1010 !
+b1010 *
+b1010 .
+b1 &
+b1 )
+b1 -
+b1010 %
+b1010 (
+b1010 ,
+b10100 $
+b10100 '
+b10100 +
+#30000
+1"
+b1111111111111011 !
+b1111111111111011 *
+b1111111111111011 .
+b101 $
+b101 '
+b101 +
+#40000
+0"
+b110000 !
+b110000 *
+b110000 .
+b10 &
+b10 )
+b10 -
+b100 %
+b100 (
+b100 ,
+b1100 $
+b1100 '
+b1100 +
+#50000
